@@ -1,0 +1,20 @@
+{
+  "name": "orbit-foundry",
+  "productName": "ORBIT FOUNDRY",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "main.cjs",
+  "description": "A native 3D physics sandbox with 1–4 player LAN co-op",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": { "ws": "8.18.3" },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "45.2.3"
+  },
+  "engines": { "node": ">=22.12" }
+}
